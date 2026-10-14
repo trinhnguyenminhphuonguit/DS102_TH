@@ -1,21 +1,27 @@
 # Python
 __pycache__/
 *.py[cod]
+.pytest_cache/
 
-# Virtual environment
+# Virtual environments
 .venv/
 venv/
+env/
 
 # PyCharm
 .idea/
 
-# Jupyter
+# VS Code
+.vscode/
+
+# Jupyter Notebook
 .ipynb_checkpoints/
 
 # Environment variables
 .env
 .env.*
+!.env.example
 
-# System files
+# System
 .DS_Store
 Thumbs.db
